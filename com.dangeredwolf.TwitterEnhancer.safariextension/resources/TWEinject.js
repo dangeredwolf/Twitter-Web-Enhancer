@@ -157,23 +157,6 @@ function InjectRobotoFonts() {
 
 }
 
-function WaitForNotificationDismiss(node,prevmsgID) {
-  console.log("waiting for notification to gtfo (id=" + prevmsgID + ")");
-  console.log(node);
-  console.log(node.parentNode)
-  if (typeof node === "undefined" || node === null || typeof node.parentNode === "undefined" || node.parentNode === null) {
-    if (msgID === prevmsgID) {
-      TDENotification.className = "tde-appbar-notification tde-appbar-notification-hidden";
-      messagesAccounted[node] = undefined;
-      return;
-    } else {
-      return;
-    }
-  }
-
-  setTimeout(function(){WaitForNotificationDismiss(node,prevmsgID);},200);
-}
-
 function Analytics() {
   if (typeof $ === "undefined") {
     setTimeout(Analytics,500);
@@ -183,7 +166,7 @@ function Analytics() {
     setTimeout(Analytics,500);
     return;
   }
-  $.ajax({url:"https://dangeredwolf.com/analytics/TWE?crypto=sha3&v=0.1.1b&release=beta"});
+  $.ajax({url:"https://dangeredwolf.com/analytics/TWE?crypto=sha3&v=0.1.2b&release=beta"});
 }
 
 setTimeout(InjectRobotoFonts,0);

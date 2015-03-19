@@ -3,18 +3,17 @@
   "short_name": "Twitter Web Enhancer",
 
   "description": "Making twitter.com suck less™ Also yeah ill make a fresh new icon for this thing soon",
-  "version": "0.1",
+  "version": "0.1.2",
 
   "permissions": [
     "webRequest",
     "webRequestBlocking",
-    "https://twitter.com/",
     "https://*.twitter.com/"
   ],
 
   "content_scripts": [
     {
-      "matches": ["https://twitter.com/*","https://www.twitter.com/*","https://api.twitter.com/*","https://analytics.twitter.com/*"],
+      "matches": ["https://*.twitter.com/*","https://twitter.com/*"],
       "js": ["extension/TWELoad.js"],
       "run_at": "document_end"
     }
