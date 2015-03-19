@@ -3,6 +3,8 @@
 
 console.log("TWELoad loaded");
 
+(function(){
+
 if (document.domain === "tweetdeck.twitter.com") {
   console.log("TweetDeck? well then, download tweetdeck enhancer. im out");
   return;
@@ -64,3 +66,6 @@ if (isWebKit) {
 } else {
   console.log("no gecko plz");
 }
+
+
+})();
