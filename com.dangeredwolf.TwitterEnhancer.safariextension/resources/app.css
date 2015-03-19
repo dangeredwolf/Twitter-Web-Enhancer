@@ -1,4 +1,4 @@
-/* Twitter Web Enhancer 1.0p [codename Flamesea]
+/* Twitter Web Enhancer 0.1 [codename Flamesea]
 Copyright 2015 Dangered Wolf (@dangeredwolf) */
 
 /* Welcome */
@@ -469,7 +469,7 @@ button {
 
 .copyright:after {
   font-size:12px;
-  content:" Twitter Web Enhancer 0.1";
+  content:" Twitter Web Enhancer 0.1.1";
   color:#888;
 }
 

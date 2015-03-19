@@ -98,58 +98,58 @@ if (console.log.toString() === "function log() { [native code] }" && console.war
 
 function InjectRobotoFonts() {
   InjectFonts = document.createElement("style");
-  InjectFonts.innerHTML = "@font-face{font-family:'RobotoDraft';font-style:normal;font-weight: 300;src:local('RobotoDraft Light'),local('RobotoDraft-Light'),url(" + TDEBaseURL + "resources/fonts/Roboto300latinext.woff2" + ") format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'RobotoDraft';\
+  InjectFonts.innerHTML = "@font-face{font-family:'Roboto';font-style:normal;font-weight: 300;src:local('Roboto Light'),local('Roboto-Light'),url(" + TDEBaseURL + "resources/fonts/Roboto300latinext.woff2" + ") format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF;}@font-face{font-family:'Roboto';\
     font-style: normal;\
     font-weight: 300;\
-    src: local('RobotoDraft Light'), local('RobotoDraft-Light'), url(" + TDEBaseURL + "resources/fonts/Roboto300latin.woff2" + ") format('woff2');\
+    src: local('Roboto Light'), local('Roboto-Light'), url(" + TDEBaseURL + "resources/fonts/Roboto300latin.woff2" + ") format('woff2');\
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;\
   }\
   /* latin-ext */\
   @font-face {\
-    font-family: 'RobotoDraft';\
+    font-family: 'Roboto';\
     font-style: normal;\
     font-weight: 400;\
-    src: local('RobotoDraft'), local('RobotoDraft-Regular'), url(" + TDEBaseURL + "resources/fonts/Roboto400latinext.woff2" + ") format('woff2');\
+    src: local('Roboto'), local('Roboto-Regular'), url(" + TDEBaseURL + "resources/fonts/Roboto400latinext.woff2" + ") format('woff2');\
     unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;\
   }\
   /* latin */\
   @font-face {\
-    font-family: 'RobotoDraft';\
+    font-family: 'Roboto';\
     font-style: normal;\
     font-weight: 400;\
-    src: local('RobotoDraft'), local('RobotoDraft-Regular'), url(" + TDEBaseURL + "resources/fonts/Roboto400latin.woff2" + ") format('woff2');\
+    src: local('Roboto'), local('Roboto-Regular'), url(" + TDEBaseURL + "resources/fonts/Roboto400latin.woff2" + ") format('woff2');\
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;\
   }\
   /* latin-ext */\
   @font-face {\
-    font-family: 'RobotoDraft';\
+    font-family: 'Roboto';\
     font-style: normal;\
     font-weight: 500;\
-    src: local('RobotoDraft Medium'), local('RobotoDraft-Medium'), url(" + TDEBaseURL + "resources/fonts/Roboto500latinext.woff2" + ") format('woff2');\
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(" + TDEBaseURL + "resources/fonts/Roboto500latinext.woff2" + ") format('woff2');\
     unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;\
   }\
   /* latin */\
   @font-face {\
-    font-family: 'RobotoDraft';\
+    font-family: 'Roboto';\
     font-style: normal;\
     font-weight: 500;\
-    src: local('RobotoDraft Medium'), local('RobotoDraft-Medium'), url(" + TDEBaseURL + "resources/fonts/Roboto500latin.woff2" + ") format('woff2');\
+    src: local('Roboto Medium'), local('Roboto-Medium'), url(" + TDEBaseURL + "resources/fonts/Roboto500latin.woff2" + ") format('woff2');\
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;\
   }\
   /* latin-ext */\
   @font-face {\
-    font-family: 'RobotoDraft';\
+    font-family: 'Roboto';\
     font-style: normal;\
     font-weight: 700;\
-    src: local('RobotoDraft Bold'), local('RobotoDraft-Bold'), url(" + TDEBaseURL + "resources/fonts/Roboto700latinext.woff2" + ") format('woff2');\
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(" + TDEBaseURL + "resources/fonts/Roboto700latinext.woff2" + ") format('woff2');\
     unicode-range: U+0100-024F, U+1E00-1EFF, U+20A0-20AB, U+20AD-20CF, U+2C60-2C7F, U+A720-A7FF;\
   }\
   /* latin */\
   @font-face {\
-    font-family: 'RobotoDraft';\
+    font-family: 'Roboto';\
     font-style: normal;\
     font-weight: 700;\
-    src: local('RobotoDraft Bold'), local('RobotoDraft-Bold'), url(" + TDEBaseURL + "resources/fonts/Roboto700latin.woff2" + ") format('woff2');\
+    src: local('Roboto Bold'), local('Roboto-Bold'), url(" + TDEBaseURL + "resources/fonts/Roboto700latin.woff2" + ") format('woff2');\
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;\
   }";
 
@@ -183,7 +183,7 @@ function Analytics() {
     setTimeout(Analytics,500);
     return;
   }
-  $.ajax({url:"https://dangeredwolf.com/analytics/TWE?crypto=sha3&v=0.1b&release=beta"});
+  $.ajax({url:"https://dangeredwolf.com/analytics/TWE?crypto=sha3&v=0.1.1b&release=beta"});
 }
 
 setTimeout(InjectRobotoFonts,0);

@@ -25,13 +25,10 @@
 	<dict>
 		<key>Scripts</key>
 		<dict>
-<<<<<<< Updated upstream:com.dangeredwolf.TweetDeckEnhancer.safariextension/Info.plist
-=======
 			<key>End</key>
 			<array>
 				<string>extension/TWEFix.js</string>
 			</array>
->>>>>>> Stashed changes:com.dangeredwolf.TwitterEnhancer.safariextension/Info.plist
 			<key>Start</key>
 			<array>
 				<string>extension/TWELoad.js</string>
