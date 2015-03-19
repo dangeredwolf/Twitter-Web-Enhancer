@@ -15,7 +15,7 @@ Installation:
 
 3. Click "Load unpacked extension..."
 
-4. Select the "com.dangeredwolf.TweetDeckEnhancer" folder
+4. Select the "com.dangeredwolf.TwitterEnhancer" folder
 
 5. If all is well it'll load!
 
@@ -27,6 +27,6 @@ Installation:
 
 3. Click "Load Unpacked Extension..."
 
-4. Select the "com.dangeredwolf.TweetDeckEnhancer" folder
+4. Select the "com.dangeredwolf.TwitterEnhancer" folder
 
 5. If all is well it'll load!
