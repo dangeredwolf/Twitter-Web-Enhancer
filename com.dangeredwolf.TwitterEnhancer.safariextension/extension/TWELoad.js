@@ -4,7 +4,8 @@
 console.log("TWELoad loaded");
 
 if (document.domain === "tweetdeck.twitter.com") {
-  console.log("TweetDeck? well then, download tweetdeck enhancer. im out")
+  console.log("TweetDeck? well then, download tweetdeck enhancer. im out");
+  return;
 }
 
 function TDEURLExchange(url) {
