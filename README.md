@@ -1,6 +1,8 @@
 Twitter Web Enhancer
 ==================
 
+**This hasn't been updated in forever and won't be. It almost certainly won't work on the latest Twitter.com, with the code here kept for historic sake.**
+
 i need to add stuff here soon but for now enjoy this pig 🐷
 
 
